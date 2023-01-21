@@ -1,0 +1,15 @@
+@url = http://localhost:7070
+
+POST {{url}}/register
+Content-Type: application/json
+
+{
+    "email": "islam@gmail.com",
+    "password": "1234",
+    "name": "Islam",
+    "surname": "Ishmuratov"
+}
+
+###
+
+GET {{url}}/users
